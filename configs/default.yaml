@@ -1,0 +1,22 @@
+# Default configuration for evolutionary algorithms benchmark
+
+# Random seed for reproducibility
+random_seed: 42
+
+# Datasets to benchmark on
+datasets:
+  - iris
+  - wine
+  - breast_cancer
+
+# Optimization parameters
+n_trials: 100
+grid_points: 5
+population_size: 20
+generations: 50
+
+# Output directory
+output_dir: results
+
+# Logging level
+log_level: INFO
